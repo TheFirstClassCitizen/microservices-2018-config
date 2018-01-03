@@ -1,0 +1,10 @@
+server.port: 8700
+
+eureka:
+  instance:
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    leaseExpirationDurationInSeconds: 5
+    leaseRenewalIntervalInSeconds: 2
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
