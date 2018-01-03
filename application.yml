@@ -1,3 +1,0 @@
-#General application for every Microservice using this Config Server
-
-logging.level.root: INFO
